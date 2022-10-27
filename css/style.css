@@ -374,11 +374,14 @@ nav {
     width: 575px;
     height: 54px;
  }
+  .filter-li:not(:last-child) {
+      margin-right: 8px;
+  }
 .filter-list .all {
-    padding: 6px 25px;    
+    padding: 6px 22px;    
 }
 .filter-btn {
-    padding: 6px 22px;
+    padding: 6px 20px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
